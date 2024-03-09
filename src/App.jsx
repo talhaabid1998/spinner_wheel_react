@@ -5,10 +5,10 @@ import WheelComponent from "react-wheel-of-prizes";
 
 export default function App() {
   const [segments, setSegments] = useState([
-    "entry1",
-    "entry2",
-    "entry3",
-    "entry4",
+    "Entry1",
+    "Entry2",
+    "Entry3",
+    "Entry4",
   ]);
   const segColors = ["#EE4040", "#F0CF50", "#815CD1", "#3DA5E0", "#34A24F"];
   const [newEntry, setNewEntry] = useState("");

@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .initial-spin {
+    @apply animate-spin-slight;
+  }
+}
+
+@keyframes spin-slight {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+}
+
+@layer utilities {
+  .animate-spin-slight {
+    animation: spin-slight 2s ease-in-out;
+  }
+}
